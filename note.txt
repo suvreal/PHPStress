@@ -1,2 +1,0 @@
-CMD default - Google and 1 time: php curl.php
-CMD to defined URL in defined repeats: php curl.php https://google.com 5
