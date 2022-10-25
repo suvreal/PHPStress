@@ -3,10 +3,10 @@
     // Prepare argv env vars
     if(isset($argv)){
         $envVars = $argv;
-        $url = ((isset($envVars[1])) ? $envVars[1] : "https://google.com");
+        $url = ((isset($envVars[1])) ? $envVars[1] : "https://your.address");
         $queryLimitNumber = ((isset($envVars[2])) ? $envVars[2] : 1);
     }else{
-        $url = "https://google.com";
+        $url = "https://your.address";
         $queryLimitNumber = 1;
     }
     
